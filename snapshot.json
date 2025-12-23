@@ -1,0 +1,54 @@
+{
+  "name": "St Petroc Heritage Project",
+  "network": "137",
+  "symbol": "STPC",
+  "strategies": [
+    {
+      "name": "erc721",
+      "params": {
+        "address": "YOUR_CUSTODIAN_CONTRACT_ADDRESS",
+        "symbol": "STPC"
+      }
+    }
+  ],
+  "members": [],
+  "filters": {
+    "minScore": 1,
+    "onlyMembers": false
+  },
+  "voting": {
+    "delay": 0,
+    "period": 604800,
+    "type": "single-choice",
+    "quorum": 0,
+    "privacy": "public"
+  },
+  "categories": [
+    "restoration",
+    "maintenance",
+    "governance",
+    "treasury"
+  ],
+  "admins": [],
+  "plugins": {},
+  "avatar": "",
+  "about": "Governance for St Petroc Heritage Project - A 15th-century church restoration managed through a hybrid stewardship model combining Legal Trust, DAO, and DeFi.",
+  "guidelines": "# Governance Guidelines\n\n## Voting Power\n- Each Soulbound Custodian Token (STPC) = 1 vote\n- Tokens are non-transferable and represent contribution-based membership\n\n## Proposal Categories\n\n### Restoration\nProposals related to physical restoration work, materials, and contractors.\n\n### Maintenance\nProposals for ongoing maintenance, repairs, and upkeep funded by the Sinking Fund.\n\n### Governance\nProposals to modify governance parameters, add/remove roles, or change operational procedures.\n\n### Treasury\nProposals for fund allocations, investment strategies, and financial planning.\n\n## Proposal Process\n\n1. **Discussion** - Discuss your idea in the forum first\n2. **Draft** - Create a detailed proposal with cost estimates\n3. **Vote** - Submit to Snapshot for community voting\n4. **Execution** - Approved proposals are executed on-chain via Treasury\n\n## Voting Period\n- 7 days (604800 seconds)\n- Proposals can be created by any Custodian token holder\n\n## Quorum\n- No minimum quorum for standard proposals\n- High-value proposals (>10 ETH) may require special approval\n\n## Code of Conduct\n- Be respectful and constructive\n- Focus on the project's mission: preserving heritage\n- Transparency in all dealings\n- Conflicts of interest must be disclosed",
+  "template": "",
+  "parent": null,
+  "children": [],
+  "private": false,
+  "domain": "",
+  "skin": "default",
+  "twitter": "",
+  "github": "Panomica/petrocda",
+  "terms": "",
+  "moderators": [],
+  "treasuries": [
+    {
+      "name": "St Petroc Treasury",
+      "address": "YOUR_TREASURY_CONTRACT_ADDRESS",
+      "network": "137"
+    }
+  ]
+}
